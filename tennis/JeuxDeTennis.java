@@ -72,6 +72,6 @@ public class JeuxDeTennis {
             case 0:
                 return "0";
         }
-        throw new IllegalArgumentException("Mauvais score: " + score);
+        throw new IllegalArgumentException("Mauvais score: " +  score);
     }
 }
